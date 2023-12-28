@@ -6,13 +6,13 @@ export default function Navbar() {
       <div className="text-3d">HISTORICAL PLACES IN INDIA</div>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="#">About</a>
         </li>
         <li>
-          <a href="/">Contact Us</a>
+          <a href="#">Contact Us</a>
         </li>
       </ul>
     </header>
