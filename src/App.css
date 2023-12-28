@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url(./photos/flag.png);
+  background-size: cover;
+}
+
+.Nav {
+  width: auto;
+  height: 65px;
+  background-color: rgb(209 209 255);
+}
+
+#banner {
+  background-color: #333;
+  box-shadow: 5px 5px 5px #a76b6b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+  color: white;
+  width: 500px;
+}
+.menu {
+  margin: 10px;
+  float: right;
+}
+
+.container {
+  padding: 10px 10%;
+}
+
+header ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px 20px;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+}
+header ul li a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: aqua;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+header ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+footer {
+  background-color: #333;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid black;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 17px;
+  font-size: 20px;
+}
+footer a:hover {
+  color: aqua;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 10px rgba(18, 9, 0, 1);
+}
+
+.img {
+  height: 250px;
+  width: 90%;
+  margin: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+.content {
+  margin: 10px;
+}
+.text {
+  margin: 30px;
+}
+h2 {
+  margin-left: 30px;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+.wiki {
+  color: rgb(221, 88, 88);
+  font-weight: bold;
+  margin-left: 30px;
+  padding-left: 0;
+}
+.wiki:hover {
+  color: blue;
+}
+@media (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    height: auto;
+  }
+  .img {
+    padding: 15px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  footer a {
+    flex-basis: 33.33%;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    font-size: 10px;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .img {
+    padding: 20px;
+  }
+}
+#anthem {
+  text-align: center;
+  margin: 1%;
+}
+audio:hover,
+audio:focus,
+audio:active {
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+audio {
+  transition: all 0.5s linear;
+  box-shadow: 2px 2px 4px 0px green;
+  border-radius: 25px;
+}
+.foot:hover {
+  color: yellow;
+}
+
+.text-3d {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 40px;
+  font-family: "MV Boli";
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  background-clip:text;
+  -webkit-background-clip :text;
+}
