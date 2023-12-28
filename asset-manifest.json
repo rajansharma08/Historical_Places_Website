@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Historical_Places_Website/static/css/main.ff395615.css",
+    "main.js": "/Historical_Places_Website/static/js/main.062aef84.js",
+    "static/js/787.2a131e76.chunk.js": "/Historical_Places_Website/static/js/787.2a131e76.chunk.js",
+    "static/media/anthem.jpg": "/Historical_Places_Website/static/media/anthem.3624ffa73dbd356db5f9.jpg",
+    "static/media/hawa.jpg": "/Historical_Places_Website/static/media/hawa.1aaa0ac5ad65e80c266e.jpg",
+    "static/media/lotus.jpg": "/Historical_Places_Website/static/media/lotus.ed0568966f168df32f5d.jpg",
+    "static/media/red.jpg": "/Historical_Places_Website/static/media/red.c23cb7aa1e34eeb794e1.jpg",
+    "static/media/flag.png": "/Historical_Places_Website/static/media/flag.729169f098d3f517570d.png",
+    "static/media/qutab-minar.jpg": "/Historical_Places_Website/static/media/qutab-minar.f55c8723b23321420ec2.jpg",
+    "static/media/agra.jpg": "/Historical_Places_Website/static/media/agra.7d9b9211598634ef6fbe.jpg",
+    "static/media/golden.jpg": "/Historical_Places_Website/static/media/golden.0eea8c3bd79e229e30b5.jpg",
+    "static/media/taj.jpg": "/Historical_Places_Website/static/media/taj.542dba4cce7eaeb322b4.jpg",
+    "static/media/gate.jpg": "/Historical_Places_Website/static/media/gate.444700ed624bf36b2dfc.jpg",
+    "index.html": "/Historical_Places_Website/index.html",
+    "main.ff395615.css.map": "/Historical_Places_Website/static/css/main.ff395615.css.map",
+    "main.062aef84.js.map": "/Historical_Places_Website/static/js/main.062aef84.js.map",
+    "787.2a131e76.chunk.js.map": "/Historical_Places_Website/static/js/787.2a131e76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff395615.css",
+    "static/js/main.062aef84.js"
+  ]
+}
